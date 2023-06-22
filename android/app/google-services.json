@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136092567462",
+    "project_id": "confworld-ffa9f",
+    "storage_bucket": "confworld-ffa9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136092567462:android:4f8fdb29c55f72e642b167",
+        "android_client_info": {
+          "package_name": "com.example.tuto_yt_bis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136092567462-q5ehl9gjpgntdcofpl6pce32q14ojvtb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6wgwEdhLjuUKD4G5A42oSEpAUYLTDes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136092567462-q5ehl9gjpgntdcofpl6pce32q14ojvtb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
