@@ -3,6 +3,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 //import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class EventPage extends StatefulWidget {
   const EventPage({super.key});
@@ -42,7 +43,8 @@ class _EventPageState extends State<EventPage> {
               final event = events[index];
               final avatar = event['avatar'].toString().toLowerCase(); //ont donne la clef de l'avatar pour relier à l'image
               final name = event['speaker'];
-              final time = event['dateD'];
+              final Timestamp timestamp = event['dateD'];
+              final String  time = DateFormat.yMd().add_jm().format(timestamp.toDate()); 
               final subject = event['subject'];
 
               return Card(

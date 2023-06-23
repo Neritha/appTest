@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
         children: [
           Image.asset("assets/images/frog.png"),
           const Text(
-            "ConfWorld 2022",
+            "ConfWorld 2023",
             style: TextStyle(
               fontSize: 42,
               fontFamily: 'Poppins',
